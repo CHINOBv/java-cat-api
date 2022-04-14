@@ -1,10 +1,10 @@
 package com.cats_app;
 
-public class Cats {
+public class CatsFav {
   String id;
-  String url;
-  String apiKey = "9b6abb52-5296-4c0e-97c1-c6c9b1d2d3c2";
-  String image;
+  String image_id;
+  String apiKey;
+  Imagex image;
 
   public String getId() {
     return id;
@@ -14,12 +14,12 @@ public class Cats {
     this.id = id;
   }
 
-  public String getUrl() {
-    return url;
+  public String getImage_id() {
+    return image_id;
   }
 
-  public void setUrl(String url) {
-    this.url = url;
+  public void setImage_id(String image_id) {
+    this.image_id = image_id;
   }
 
   public String getApiKey() {
@@ -30,12 +30,11 @@ public class Cats {
     this.apiKey = apiKey;
   }
 
-  public String getImage() {
+  public Imagex getImage() {
     return image;
   }
 
-  public void setImage(String image) {
+  public void setImage(Imagex image) {
     this.image = image;
   }
-
 }
